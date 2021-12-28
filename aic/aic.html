@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+        <title>AIC</title>
+        
+    </head>
+
+    
+    <body>
+
+        <header>
+
+            <div class="nav-container">
+                <div>
+                <img src="../media/logo.svg" ;>
+                </div>
+                    <div id="nav-tags">
+                            <a href="../index.html">Home</a>
+                            <a href="../events.html">Events</a>
+                            <a href="../contact.html">Contacts</a>
+                    </div>
+            </div>
+    
+        </header>
+
+        <h2>Anterior Interior Cortex</h2>
+            
+        <section class="info-box">
+          <ul>
+            <li><a>Books</a></li>
+            <li><a class="active">Feathers</a></li>
+            <li><a>Furs</a></li>
+            <li><a>Falli</a></li>
+            <li><a>Yoni</a></li>
+            <li><a>Lube</a></li>
+            <li><a>Toys</a></li>
+            <li><a>Extras</a></li>
+          </ul>
+          <div class="panels">
+            <article class="active-panel">
+              <h3>Books</h3>
+        
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. 
+              </p>
+            </article>
+            <article>
+              <h3>Feathers</h3>
+        
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. </p>
+            </article>
+            <article>
+              <h3>Furs</h3>
+        
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. </p>
+            </article>
+            <article>
+                <h3>Falli</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. </p>
+              </article>
+              <article>
+                <h3>Yoni</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. </p>
+              </article>
+              <article>
+                <h3>Lube</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. </p>
+              </article>
+              <article>
+                <h3>Toys</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. </p>
+              </article>
+              <article>
+                <h3>Extras</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. </p>
+              </article>
+          </div>
+        </section>
+        
+        <script>
+        
+        var tabs = document.querySelectorAll('.info-box li a');
+        var panels = document.querySelectorAll('.info-box article');
+        
+        for(i = 0; i < tabs.length; i++) {
+          var tab = tabs[i];
+          setTabHandler(tab, i);
+        }
+        
+        function setTabHandler(tab, tabPos) {
+          tab.onclick = function() {
+            for(i = 0; i < tabs.length; i++) {
+              tabs[i].className = '';
+            }
+        
+            tab.className = 'active';
+        
+            for(i = 0; i < panels.length; i++) {
+              panels[i].className = '';
+            }
+        
+            panels[tabPos].className = 'active-panel';
+          }
+        }
+        </script>
+
+        <h2>Pay With Crypto</h2>
+        <div id="crypto-container">
+                <div><img src="../media/eth-logo.png" style="height: 100px; padding: 0px 18.5px"></div>
+                <div><img src="../media/qr.png" style="height: 100px;"></div>
+                <div><img src="../media/bit-logo.png" style="height: 100px;"></div>
+        </div>
+    
+
+        <footer>
+            <div class="footer">
+                <div id="footer-txt">
+                    <p>Contact Daniel: 480-443-1127</p>
+                    <p>6990 E Shea Blvd #217, Scottsdale AZ 85254</p>
+                </div>
+            </div>
+    
+        </footer>
+    </body>
+
+
+</html>
