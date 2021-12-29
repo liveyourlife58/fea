@@ -7,7 +7,7 @@ body {
     background-color: rgb(29, 1, 17);
     margin: 1rem;
     text-align: center;
-    font-family: 'Necromancer';
+    font-family: 'Necromancer', 'Moon Dance';
     font-size: 25px;
     border: 3px solid white;
 }
@@ -17,7 +17,7 @@ body {
     src: url(../fea/media/fonts/Necromancer-lgP8Z.ttf) format("truetype");}
 
 h1 {
-    font-size: 8rem;
+    font-size: 10rem;
 }
 
 h2 {
