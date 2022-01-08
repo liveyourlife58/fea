@@ -239,6 +239,10 @@ a {
         h1 {
             font-size: 5rem;
         }
+
+        #nav-tags a {
+            padding: .5rem;
+        }
         
         .info-box article { 
             top: 0px;
