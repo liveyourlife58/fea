@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     font-size: 4rem;
-    padding: 1rem 0rem;
+    padding: .5rem 0rem;
 }
 
 a { 
@@ -36,7 +36,7 @@ a {
 }
 
 .main-img img {
-    width: 80%;
+    width: 87%;
     height: auto;
     padding: 2rem;
     background-color:rgb(23, 26, 29);
