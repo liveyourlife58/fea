@@ -235,7 +235,11 @@ a {
         }
     }
 
-    @media screen and (max-width: 415px) {
+    @media screen and (max-width: 650px) {
+        h1 {
+            font-size: 5rem;
+        }
+        
         .info-box article { 
             top: 0px;
         }
