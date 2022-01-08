@@ -235,7 +235,7 @@ a {
         }
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 415px) {
         h1 {
             font-size: 5rem;
         }
