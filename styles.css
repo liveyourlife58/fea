@@ -36,7 +36,7 @@ a {
 }
 
 .main-img img {
-    width: 85%;
+    width: 80%;
     height: auto;
     padding: 2rem;
     background-color:rgb(23, 26, 29);
@@ -240,10 +240,10 @@ a {
             font-size: 5rem;
         }
         h2 {
-            font-size: 4rem;
+            font-size: 3rem;
         }
         h3 {
-            font-size: 3rem;
+            font-size: 2rem;
         }
 
 
