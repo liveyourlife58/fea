@@ -246,6 +246,9 @@ a {
             font-size: 2rem;
         }
 
+        .main-img img {
+            width: 80%;
+        }
 
         .nav-container {
             height: 5rem;
