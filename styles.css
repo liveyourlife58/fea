@@ -36,7 +36,7 @@ a {
 }
 
 .main-img img {
-    width: 87%;
+    width: 85%;
     height: auto;
     padding: 2rem;
     background-color:rgb(23, 26, 29);
@@ -239,6 +239,13 @@ a {
         h1 {
             font-size: 5rem;
         }
+        h2 {
+            font-size: 4rem;
+        }
+        h3 {
+            font-size: 3rem;
+        }
+
 
         .nav-container {
             height: 5rem;
