@@ -219,6 +219,7 @@ a {
     width: 92%;
     margin: 0 auto;
     font-size: 4vw;
+    line-height: 3rem
   }
 
   .info-box .active-panel {
@@ -235,28 +236,45 @@ a {
         }
     }
 
-    @media screen and (max-width: 415px) {
+    @media screen and (max-width: 650px) {
         h1 {
             font-size: 5rem;
         }
         h2 {
             font-size: 3rem;
+            
         }
         h3 {
             font-size: 2rem;
         }
 
-        .main-img img {
-            width: 80%;
+        #nav-tags a {
+            padding: 0rem 1rem;
         }
 
-        .nav-container {
-            height: 5rem;
+        .main-img img {
+            width: 80%;
         }
         
         .info-box article { 
             top: 0px;
         }
+
+        .info-box {
+            display: block;
+            height: 710px;
+            align-content: center;
+            padding-bottom: 50px;
+          }
+
+          .info-box li{
+            width: 100%
+          }
+
+          .info-box .panels {
+            left: 20px;
+          }
+
     }
 
     @media screen and (min-width: 900px) {
