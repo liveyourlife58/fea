@@ -240,8 +240,8 @@ a {
             font-size: 5rem;
         }
 
-        #nav-tags a {
-            padding: .5rem;
+        .nav-container {
+            height: 5rem;
         }
         
         .info-box article { 
